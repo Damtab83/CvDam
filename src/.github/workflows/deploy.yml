@@ -30,7 +30,7 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
-        - name: Detect package manager
+      - name: Detect package manager
         id: detect-package-manager
         run: |
           if [ -f "${{ github.workspace }}/yarn.lock" ]; then
