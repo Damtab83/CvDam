@@ -7,7 +7,7 @@
     "phone": "+33606732556",
     "url": "https://damtab83.github.io/CvDam/",
     "summary": "Après une reconversion, je me présente à vous comme Développeur Fullstack. Je suis motivé et persévérant.Et c'est grâce à cela que j'ai pu conciller mon travaille avec ma formation. Ce n'est jamais simple de parler de soit, mais si vous voulez mieux me connaitre, je suis à votre disposition.",
-    "theme": "default",
+    "theme": "blue",
     "location": {
       "address": "",
       "postalCode": "83140",
@@ -15,6 +15,13 @@
       "countryCode": "FR",
       "region": "France"
     },
+    "softSkills": [
+      "Curieux",
+      "Organisé",
+      "Esprit critique",
+      "Motivé",
+      "Persévérant"
+    ],
     "profiles": [
       {
         "network": "LinkedIn",
@@ -35,68 +42,70 @@
   },
   "work": [
     {
-      "name": "Tech Startup",
-      "position": "Junior Web Developer",
-      "location_type": "On site",
-      "location": "Auckland, New Zealand",
-      "url": "https://techstartup.com",
-      "startDate": "2024-01-01",
+      "name": "Développeur en recherche",
+      "position": "Développeur Web FullStack Junior",
+      "location_type": "où ce trouve mon PC",
+      "location": "Six-Fours-les-plages, France",
+      "url": "https://damtab83.github.io/CvDam/",
+      "startDate": "Suivant vos besoins",
       "endDate": null,
-      "summary": "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs.",
-      "highlights": ["Improved website performance by optimizing code"],
+      "summary": "Dans l'attente d'un poste, je développe divers applications tout en me formant sur d'autres langages informatiques et leurs Frameworks",
+      "highlights": ["Amélioration et optimisation du code"],
       "responsibilities": [
-        "Collaborated with senior developers to design and implement web applications using modern JavaScript frameworks.",
-        "Assisted in debugging and optimizing front-end code to ensure smooth user experiences.",
-        "Participated in code reviews and contributed to improving coding standards within the team."
+        "Maquettage et modélisation d'une application et de sa Base De Données",
+        "Création de l'application et de ses fonctionnalités",
+        "Sécurisation de l'application et Factorisation du code"
       ],
       "achievements": [
-        "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs."
+        "Développement des applications avec sécurisation par authentification des users et portection de la Base De Données"
       ],
-      "skills": ["React", "Tailwind", "GitHub"]
+      "skills": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Javascipt",
+        "GitHub",
+        "MySQL",
+        "Php",
+        "Symfony"
+      ]
     },
     {
-      "name": "Innovative Solutions",
-      "position": "Junior Software Developer",
-      "location_type": "Hybrid",
-      "location": "Wellington, New Zealand",
-      "url": "https://innovativesolutions.com",
-      "startDate": "2022-06-01",
-      "endDate": "2023-06-01",
-      "summary": "Assisting in the development and maintenance of software applications using Python and Django. Collaborating with cross-functional teams to ensure quality and timely delivery of software solutions.",
+      "name": "Ambulancier",
+      "position": "Chauffeur Ambulancier",
+      "location_type": "Sur Site",
+      "location": "Var, France",
+      "startDate": "2004-07-05",
+      "endDate": "in Active",
+      "summary": "Transport de patient dans les conditions adaptés à leur état",
       "highlights": [
-        "Contributed to a major project that streamlined internal workflows, improving efficiency by 30%"
+        "Contribuer au bien être des patients lors de leur transport."
       ],
       "responsibilities": [
-        "Developed and maintained backend services using Python and Django.",
-        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
+        "Surveillance et confort des patients",
+        "Gestes de premiers secours lors d'interventions d'urgence"
       ],
       "achievements": [
-        "Successfully implemented a feature that enhanced user authentication, improving security measures."
+        "Transport sécurisé et adapté d'un patient suivant son état de santé"
       ],
-      "skills": ["Python", "Django", "SQL", "Git"]
+      "skills": [
+        "Empathie",
+        "Esprit d'équipe",
+        "Analyse des besoins",
+        "Conduite adaptée"
+      ]
     },
     {
-      "name": "Web Agency",
-      "position": "Intern Web Developer",
-      "location_type": "Remote",
-      "location": "Sydney, Australia",
-      "startDate": "2022-06-01",
-      "endDate": "2022-12-01",
-      "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
-      "highlights": ["Completed several client projects successfully"],
-      "skills": ["HTML", "CSS"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Local Coding Club",
-      "position": "Volunteer",
-      "url": "https://codingclub.com/",
-      "startDate": "2021-01-01",
-      "endDate": "2022-01-01",
-      "summary": "Helped organize coding workshops and mentored new members.",
-      "highlights": ["Awarded 'Volunteer of the Month'"]
+      "name": "Technicien réseaux câblés",
+      "position": "Câblage et dépannage réseaux câblés à domicile",
+      "location_type": "Sur Site",
+      "location": "Var, France",
+      "startDate": "2001-12-18",
+      "summary": "Mise en place et dépannage des systèmes de connections d'un opérateur internet câblé au niveau multimédia et internet",
+      "highlights": [
+        "Répondre au besoin des clients, et à leurs contraintes techniques et esthétiques"
+      ],
+      "skills": ["Empathie", "Analyse des besoins", "Esprit critque"]
     }
   ],
   "education": [
@@ -244,8 +253,12 @@
   ],
   "interests": [
     {
-      "name": "Technology",
+      "name": "Technologies",
       "keywords": ["AI", "Blockchain"]
+    },
+    {
+      "name": "Randonnée",
+      "keywords": ["Natural", "Physical sport"]
     }
   ],
   "references": [
@@ -258,7 +271,7 @@
     {
       "name": "Personal Portfolio",
       "isActive": true,
-      "description": "A personal portfolio website to showcase my projects and skills.",
+      "description": "Mon Portfolio Personnel permettant de présenter mes projets et mes skills",
       "highlights": [
         "Built with React (Astro) and Tailwind CSS",
         "Includes a blog and contact form"
@@ -267,14 +280,15 @@
       "github": "https://github.com/Damtab83/CvDam"
     },
     {
-      "name": "Weather App",
-      "isActive": true,
-      "description": "A web application that provides weather information for any location.",
+      "name": "My-garage App",
+      "isActive": false,
+      "description": "Une Application Web présentant les divers services d'un garage",
       "highlights": [
-        "Built with JavaScript and OpenWeatherMap API",
-        "Responsive design"
+        "Built with Php Symfony",
+        "Responsive design",
+        "User authentication and CRUD operations"
       ],
-      "url": "https://weatherapp.com"
+      "github": "https://github.com/Damtab83/my_garage_ecf"
     },
     {
       "name": "Task Manager",

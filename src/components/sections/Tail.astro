@@ -1,16 +1,39 @@
 ---
-
+const copyright = new Date();
+const copyrightYear = copyright.getFullYear();
 ---
 
 <div class="flex w-full max-w-7xl justify-center md:col-span-6 print:hidden">
-	<a href="https://twitter.com/SmileSharks?utm_source=portfolio_astro" rel="noreferrer" target="_blank" class="group flex items-center space-x-1 text-xs">
-		<span class="hover:decoration- flex gap-1 underline decoration-dotted underline-offset-4 transition group-hover:underline-offset-4"
-			>Made by Ariel
-			<svg class="text-skin-hue w-4 group-hover:animate-pulse" viewBox="0 0 55 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<path fill-rule="evenodd" clip-rule="evenodd" d="M22.0538 0.250122L0.687988 36.422H11.3709L21.8664 18.4298L32.5493 36.422H43.2322L37.9844 27.4259L22.0538 0.250122Z" fill="currentColor" class=""></path>
-				<path fill-rule="evenodd" clip-rule="evenodd" d="M43.2321 36.422L48.6673 27.4259L43.607 18.4297L37.9844 27.6133L43.2321 36.422Z" opacity="5" fill="currentColor" fill-opacity="0.8" class=""></path>
-				<path fill-rule="evenodd" clip-rule="evenodd" d="M32.9243 0.250122L43.4198 0.250122L54.1027 18.6172L48.6675 27.4259L32.9243 0.250122Z" fill="currentColor" class=""></path>
-			</svg>
-		</span>
-	</a>
+  <span
+    class="hover:decoration- flex gap-1 underline decoration-dotted underline-offset-4 transition group-hover:underline-offset-4"
+  >
+    <svg
+      width="16"
+      height="16"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+      stroke-width="2"
+      fill="none"
+    >
+      <path
+        stroke="none"
+        fill="currentColor"
+        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM199.4 312.6c-31.2-31.2-31.2-81.9 0-113.1s81.9-31.2 113.1 0c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9c-50-50-131-50-181 0s-50 131 0 181s131 50 181 0c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0c-31.2 31.2-81.9 31.2-113.1 0z"
+      ></path>
+    </svg>
+    <span class="group flex items-center space-x-1 text-xs">
+      {copyrightYear}
+      <span class="copyright_Name"> Tabary D. </span>
+    </span>
+    <p class="hidden">
+      This template was found in https: astro.build themes details
+      print-friendly-portfolio-cv/ and design by Ariel Cerda
+    </p>
+  </span>
 </div>
+
+<style>
+  .copyright_Name {
+    margin-left: 0.5vw;
+  }
+</style>
