@@ -2,7 +2,7 @@
   "basics": {
     "name": "Damien Tabary",
     "label": "Développeur FullStack ",
-    "image": "/me_avatar.jpg",
+    "image": "/CvDam/me_avatar.jpg",
     "email": "damien.tabary@hotmail.com",
     "phone": "+33606732556",
     "url": "https://damtab83.github.io/CvDam/",
@@ -291,15 +291,11 @@
       "github": "https://github.com/Damtab83/my_garage_ecf"
     },
     {
-      "name": "Task Manager",
-      "isActive": true,
-      "description": "A simple task management app to keep track of daily tasks.",
-      "highlights": [
-        "Built with Node.js and MongoDB",
-        "User authentication and CRUD operations"
-      ],
-      "url": "https://taskmanager.com",
-      "github": "https://github.com"
+      "name": "Réserver mon Cinéma",
+      "isActive": false,
+      "description": "Create a Databaseto reserve a cinema seat ",
+      "highlights": ["Built a diagram UML", "Use diagram for create Database"],
+      "github": "https://github.com/Damtab83/Cr-er_une_BDD"
     },
     {
       "name": "E-commerce Site",
