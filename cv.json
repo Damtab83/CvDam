@@ -273,8 +273,8 @@
       "isActive": true,
       "description": "Mon Portfolio Personnel permettant de présenter mes projets et mes skills",
       "highlights": [
-        "Built with React (Astro) and Tailwind CSS",
-        "Includes a blog and contact form"
+        "Construit avec React (Astro) et Tailwind CSS",
+        "Inclus mes réseaux sociaux et mes contacts"
       ],
       "url": "https://damtab83.github.io/CvDam/",
       "github": "https://github.com/Damtab83/CvDam"
@@ -284,28 +284,33 @@
       "isActive": false,
       "description": "Une Application Web présentant les divers services d'un garage",
       "highlights": [
-        "Built with Php Symfony",
-        "Responsive design",
-        "User authentication and CRUD operations"
+        "Construit avec Php Symfony",
+        "Responsive design avec Boots",
+        "Authentifications des utilisateurs",
+        "Gestion de contenus CRUD"
       ],
       "github": "https://github.com/Damtab83/my_garage_ecf"
     },
     {
       "name": "Réserver mon Cinéma",
       "isActive": false,
-      "description": "Create a Databaseto reserve a cinema seat ",
-      "highlights": ["Built a diagram UML", "Use diagram for create Database"],
+      "description": "Création d'une Base De Données de réservation de places de cinéma",
+      "highlights": [
+        "Création de diagramme UML",
+        "Utilisation du diagramme pour la création de la base dee données"
+      ],
       "github": "https://github.com/Damtab83/Cr-er_une_BDD"
     },
     {
-      "name": "E-commerce Site",
+      "name": "YourBook",
       "isActive": false,
-      "description": "An online store built with Next.js and Stripe for payment processing.",
+      "description": "Application d'emprunt collaboratif de livres",
       "highlights": [
-        "Product management and shopping cart functionality",
-        "Secure payment integration"
+        "Emprunt des livres avec une interface en Angular",
+        "Gestion des stocks côté serveur avec panneau administrateur en Symfony",
+        "Interaction entre interface utilisateur et gestion des stocks  avec une API en Spring Boot"
       ],
-      "url": "https://ecommerce.com"
+      "github": "https://github.com/Damtab83/InterSpecYourbook"
     }
   ]
 }
